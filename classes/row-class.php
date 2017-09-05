@@ -1,6 +1,6 @@
 <?php
 
-require_once('lib/db.php');
+require_once(__DIR__ . '/../lib/db.php');
 
 $con = db_connect();
 if(!$con) {

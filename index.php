@@ -1,6 +1,6 @@
 <?php
 
-require_once('lib/rows.php');
+require_once(__DIR__ . '/lib/rows.php');
 
 $lead = getRows("leads", "status = 'Quoted'");
 if(is_array($lead)) {

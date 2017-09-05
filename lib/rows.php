@@ -1,6 +1,6 @@
 <?php
 
-require_once('classes/row-class.php');
+require_once(__DIR__ . '/../classes/row-class.php');
 
 function getRows($name, $where = null) {
 	if($where != null) {
